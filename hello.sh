@@ -1,12 +1,13 @@
 #! /bin/sh
 
-:'este cmando crea un archivo y agrega vas contenido :> este es uncomentario amplio
-echo hello word2 >> hello.txt'
+age=10
 
-#aqui inicia el codigo
-cat << myText
-este una prueba 
-escrita en bash
-myText 
+if [ $age -ge 18 ]
+then 
+   echo "you are a adult"
+else 
+  echo "you are a chiild"
+ fi  
 
-#Aqui termina el codigo'
+ : 'haciendo una condicion simple con bash'
+ 
