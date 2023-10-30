@@ -1,0 +1,5 @@
+chmod +x hello.sh -> cambiar el valor del programa
+ls -l ->nuestra los permisos 
+ls -a ->nuestra los archivos 
+
+./ -> ejecutor del archivos o programa
