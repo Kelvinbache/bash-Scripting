@@ -1,13 +1,56 @@
-#! /bin/sh
+#! /bin/bash
 
-age=10
+function createFile() {
+   for i in {0..10}
+   do 
+   mkdir "file $i"
+   cd "file $i"
+   touch "hello.html"
+   cd ..
+   done
+}
 
-if [ $age -ge 18 ]
-then 
-   echo "you are a adult"
-else 
-  echo "you are a chiild"
- fi  
+# function remove(){
+#  for i in {0..10}
+#  do 
+#    if [ $i -eq 3 ] || [ $i -eq 5 ]
+#    then
+#   rm -r "file $i"
+#    fi
+#   done
+# }
 
- : 'haciendo una condicion simple con bash'
- 
+
+function removeALL() {
+   for i in {0..10}
+   do 
+   rm -r "file $i"
+   done
+}
+
+removeALL
+# x=33
+# y=5
+
+# echo $((x + y))
+
+
+# user=("$@0")
+
+# echo "result: ${user[0]}"
+
+# number=0
+
+# for i in {0..20}
+# do 
+#  if [ $i -eq 5 ]
+#   then
+#    break
+# fi
+#  echo $i
+#  done
+
+# for ((i=0; i < 20; i++))
+# do
+#  echo $i
+# done
