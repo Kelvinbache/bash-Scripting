@@ -1,15 +1,5 @@
 #! /bin/bash
 
-function createFile() {
-   for i in {0..10}
-   do 
-   mkdir "file $i"
-   cd "file $i"
-   touch "hello.html"
-   cd ..
-   done
-}
-
 # function remove(){
 #  for i in {0..10}
 #  do 
@@ -21,14 +11,6 @@ function createFile() {
 # }
 
 
-function removeALL() {
-   for i in {0..10}
-   do 
-   rm -r "file $i"
-   done
-}
-
-removeALL
 # x=33
 # y=5
 
