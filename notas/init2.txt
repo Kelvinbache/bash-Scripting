@@ -1,0 +1,6 @@
+estoy ecribiendo un texto mediante cat > nombre carpet/nombre del archivo
+
+
+
+ahora estoy poniendo mas contenido al archivo utilizando >>
+helo soy kelvin%

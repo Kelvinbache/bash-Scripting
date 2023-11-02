@@ -1,5 +1,5 @@
-#! /bin/bash
-
+#! /bin/bash 
+#  esto seria la configuracion que vamos a trabajar
 # function remove(){
 #  for i in {0..10}
 #  do 
