@@ -6,6 +6,10 @@ number=10
 
 for (( i=0; i < $number; i++ ))
   do # no olvides escribirme si no quieres un error
+  if (( $i == 3 || $i == 7 ))
+   then 
+    continue
+   fi
   echo $i
 done # aqui estamos cerrando la operaccion del loop
 

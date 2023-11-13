@@ -1,0 +1,16 @@
+ 71024 argunms.sh
+ 65911 case.sh
+ 58273 class3
+ 61348 conditionals.sh
+137572 err.txt
+ 45688 hello.sh
+ 60471 ini.sh
+137522 input.txt
+ 66141 loop.sh
+ 58330 notas
+ 65727 operation.sh
+ 60921 output.sh
+ 61051 read.sh
+ 57532 scripting
+137334 stderr_stdout.sh
+136707 stdin.sh
