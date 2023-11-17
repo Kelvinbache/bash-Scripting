@@ -16,7 +16,19 @@ do
  echo $items 
 done 
 
-unset items[2]
+#unset items[2]
+#echo los items sobrantes: ${items[*]}
 
-echo los items sobrantes: ${items[*]}
+###################################################################################################
+
+#ahora quiero ayadir mas items, a este arreglo
+
+items+=( "estamos ayadiendo mas items" ) # Utilizando el mas igual, estamos ayadiendo elementos
+
+echo ${items[*]} # Y despues mostrando todo, el contenido al final
+
+#ahora si quiero cambiar un valorn en una posicion 
+items[2]="alejandro" # estamos diciendo busca en esta posion un valor, y despues cambiar ese valor por este otro
+
+echo ${items[*]}
 
