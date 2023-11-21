@@ -4,6 +4,8 @@ number=10
 
 # forma de escribir un bucle normal
 
+set -x # estamos deciendo marca donde empiezar el bug
+
 for (( i=0; i < $number; i++ ))
   do # no olvides escribirme si no quieres un error
   if (( $i == 3 || $i == 7 ))
@@ -13,6 +15,7 @@ for (( i=0; i < $number; i++ ))
   echo $i
 done # aqui estamos cerrando la operaccion del loop
 
+set +x # estamos terminando la busqudad del bug
 
 # como podemos escribir un parametro de for {donde inicie, hasta donde llegue, como queremos que se recorrar}
 # for i in {0..100..2}

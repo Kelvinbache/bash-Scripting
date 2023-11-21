@@ -5,3 +5,5 @@ ls -a ->nuestra los archivos
 ./ -> ejecutor del archivos o programa
 
 cat /etc/shells --> podemos ver los bash que tenemos instalados
+
+bash -x nombre del archivo > esto es para desbugar, un archivo
